@@ -1,13 +1,21 @@
-# Публикуется только явно разрешённый набор документов.
+# Публикуются только документы и отдельная браузерная модель интерфейса.
 *
 !.gitignore
 !README.md
 !CHANGELOG.md
+!index.html
+!demo.css
+!demo.js
+!demo-model.js
+!.nojekyll
 !docs/
 docs/*
 !docs/GITARA_V11_User_Guide_RU.pdf
 !docs/QUICK_START_RU.md
 !docs/INSTALL_FIRMWARE_RU.md
+!docs/ASSEMBLY_RU.md
+!docs/GITARA_V11_Assembly_RU.pdf
 !images/
 images/*
 !images/menus-v11.png
+!images/wiring-v11.svg
