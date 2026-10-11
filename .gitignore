@@ -31,3 +31,9 @@ drawings/*
 !drawings/nema23-bracket.svg
 !drawings/encoder-bracket.dxf
 !drawings/encoder-bracket.svg
+
+!media/
+media/*
+!media/lathe-encoder-drive.jpg
+!media/lathe-menu-poster.jpg
+!media/lathe-menu-demo.mp4

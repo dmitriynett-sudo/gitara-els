@@ -10,6 +10,8 @@ GITARA управляет шаговым двигателем продольно
 
 ## Документация
 
+- [Фото установки и видео меню на станке](https://dmitriynett-sudo.github.io/gitara-els/#installation) — пример крепления энкодера, передачи продольной подачи и панели управления.
+
 - [Принципиальная схема, PDF](docs/GITARA_V11_Schematic_RU.pdf) — один лист; доработки выделены оранжевым.
 - [Редактируемая схема EasyEDA](docs/GITARA_V11_Schematic_EasyEDA.json).
 - Кронштейны: [двигатель NEMA23, DXF](drawings/nema23-bracket.dxf) · [энкодер, DXF](drawings/encoder-bracket.dxf). Единицы — мм; посадочные размеры сверяются со своей механикой.
