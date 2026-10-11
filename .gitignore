@@ -19,3 +19,15 @@ docs/*
 images/*
 !images/menus-v11.png
 !images/wiring-v11.svg
+
+!site.js
+!sitemap.xml
+!docs/GITARA_V11_Schematic_RU.pdf
+!docs/GITARA_V11_Schematic_EasyEDA.json
+!images/schematic-v11.svg
+!drawings/
+drawings/*
+!drawings/nema23-bracket.dxf
+!drawings/nema23-bracket.svg
+!drawings/encoder-bracket.dxf
+!drawings/encoder-bracket.svg
