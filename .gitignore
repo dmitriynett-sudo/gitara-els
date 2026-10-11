@@ -1,0 +1,13 @@
+# Публикуется только явно разрешённый набор документов.
+*
+!.gitignore
+!README.md
+!CHANGELOG.md
+!docs/
+docs/*
+!docs/GITARA_V11_User_Guide_RU.pdf
+!docs/QUICK_START_RU.md
+!docs/INSTALL_FIRMWARE_RU.md
+!images/
+images/*
+!images/menus-v11.png
