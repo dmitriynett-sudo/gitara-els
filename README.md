@@ -12,14 +12,13 @@ GITARA управляет шаговым двигателем продольно
 
 - [Фото установки и видео меню на станке](https://dmitriynett-sudo.github.io/gitara-els/#installation) — пример крепления энкодера, передачи продольной подачи и панели управления.
 
-- [Принципиальная схема, PDF](docs/GITARA_V11_Schematic_RU.pdf) — один лист; доработки выделены оранжевым.
-- [Редактируемая схема EasyEDA](docs/GITARA_V11_Schematic_EasyEDA.json).
+- **[Схема и плата ELS R6: полный проект KiCad, ZIP](hardware/ELS_R6/ELS_R6_KiCad.zip)** — 4 листа схемы, двухслойная плата 58×38 мм и библиотеки компонентов.
+- [Схема ELS R6, PDF](hardware/ELS_R6/ELS_R6_Schematic.pdf) · [Файлы KiCad, Gerber и монтажные карты](hardware/ELS_R6/) · [Распиновка разъёмов](hardware/ELS_R6/CONNECTIONS_RU.md).
 - Кронштейны: [двигатель NEMA23, DXF](drawings/nema23-bracket.dxf) · [энкодер, DXF](drawings/encoder-bracket.dxf). Единицы — мм; посадочные размеры сверяются со своей механикой.
 
 - **[Открыть виртуальную GITARA V11](https://dmitriynett-sudo.github.io/gitara-els/)** — полный набор меню, настройки, виртуальный шпиндель, джойстик, микроподача и примеры работы. Браузерная модель не управляет станком и не воспроизводит точность/защиту прошивки.
 - [Инструкция пользователя V11, PDF](docs/GITARA_V11_User_Guide_RU.pdf) — настройка под свой станок и обзор меню.
-- [Сборка и подключение, PDF](docs/GITARA_V11_Assembly_RU.pdf) — четыре листа с GPIO, согласованием сигналов, драйвером и питанием.
-- [Плата, список деталей и таблица контактов](docs/ASSEMBLY_RU.md).
+- [Сборка и подключение ELS R6](hardware/ELS_R6/README.md) · [Список деталей](hardware/ELS_R6/BOM.csv).
 - [Первое включение](docs/QUICK_START_RU.md).
 - [Установка готовой прошивки](docs/INSTALL_FIRMWARE_RU.md).
 - [Изменения V11](CHANGELOG.md).
@@ -74,3 +73,4 @@ GITARA управляет шаговым двигателем продольно
 `0x5408C962E5A43E652782C84E41e1a12F8a28AdDa`
 
 После оплаты пришлите на почту TXID транзакции и DEVICE ID. Используйте только USDT в BNB Smart Chain; комиссия сети оплачивается отдельно. [Порядок активации на странице проекта](https://dmitriynett-sudo.github.io/gitara-els/#activation).
+
