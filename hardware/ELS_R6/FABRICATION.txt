@@ -1,0 +1,6 @@
+ELS_R6: 58.00 x 38.00 mm. TWO copper layers.
+FR-4, 1.6 mm, 1 oz copper. Solder mask and silkscreen on both sides.
+2 NPTH holes, diameter 3.20 mm; 3 plated slots, 2.4 x 0.9 mm.
+Copper keepout diameter around mounting holes: 7.50 mm on both layers.
+Use both PTH and NPTH drill files. Do not mirror Gerber files.
+No blind/buried vias or filled vias required.

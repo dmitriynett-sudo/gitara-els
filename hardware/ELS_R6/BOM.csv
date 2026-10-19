@@ -1,0 +1,51 @@
+﻿Section,Reference,Original_reference,Value,Footprint,Side,Notes
+ELS,C201,C1,100n,C0805,Bottom,X7R/C0G 50V
+ELS,C202,C2,100n,C0805,Bottom,X7R/C0G 50V
+ELS,C203,C3,100u 16V,RADIAL_D5.0_P2.0,Top,"Body diameter <= 5.0mm, verify actual capacitor before assembly"
+ELS,C204,C4,100u 50V,RADIAL_D8.5_P3.5,Top,"Nominal D8mm, maximum D8.5mm, pitch3.5mm; e.g. Panasonic EEUFR1H101. Positive lead toward VIN connector."
+ELS,C205,C5,100n 50V,C0805,Bottom,X7R/C0G 50V
+ELS,C206,C6,100n 50V,C0805,Bottom,X7R/C0G 50V
+ELS,CN201,CN1,VIN,HDR_1x2_P2.54_UNSHROUDED,Top,
+ELS,D201,D1,M7 1A 1000V,SMA_DO214AC,Bottom,"Silicon rectifier, not Schottky: intentionally retains forward voltage drop"
+ELS,J204,J4,I2C / GPIO,HDR_1x8_P2.54,Top,
+ELS,LED201,LED1,LED0805,LED0805_K1_A2,Top,
+ELS,LED202,LED2,LED0805,LED0805_K1_A2,Top,
+ELS,LED203,LED3,LED0805,LED0805_K1_A2,Top,
+ELS,M201,M1,DD4012SA 5V,DD4012SA_P2.54_VERTICAL,Top,
+ELS,Q201,Q1,BC807-40,SOT23_Handsolder,Top,
+ELS,R210,R10,2.2k,R0805,Top,Encoder B pull-up relocated on connector side to make routing space; value and connections unchanged.
+ELS,R211,R11,10k,R0805,Top,
+ELS,R212,R12,10k,R0805,Top,
+ELS,R213,R13,10k,R0805,Top,
+ELS,R214,R14,10k,R0805,Top,
+ELS,R215,R15,10k,R0805,Top,
+ELS,R216,R16,10k,R0805,Top,
+ELS,R217,R17,1k,R0805,Bottom,
+ELS,R218,R18,1k,R0805,Bottom,
+ELS,R219,R19,1k,R0805,Bottom,
+ELS,R220,R20,1k,R0805,Bottom,
+ELS,R222,R22,1.5k,R0805,Top,
+ELS,R223,R23,1.5k,R0805,Top,
+ELS,R224,R24,1.5k,R0805,Top,
+ELS,R225,R25,47k,R0805,Top,
+ELS,R226,R26,47k,R0805,Top,
+ELS,R227,R27,47k,R0805,Top,
+ELS,R228,R28,47k,R0805,Top,
+ELS,R229,R29,10k,R0805,Top,
+ELS,R230,R30,47k,R0805,Top,
+ELS,R231,R31,47R 0.5W,R1206,Top,
+ELS,R238,R38,4.7k DNP,R0805,Bottom,Not fitted. Waveshare already has 4.7k pull-ups to3.3V
+ELS,R239,R39,4.7k DNP,R0805,Bottom,Not fitted. Never pull the shared touch I2C bus to5V
+ELS,R209,R9,2.2k,R0805,Top,
+ELS,SG201,SG1,ACTIVE BUZZER 5V,BUZZER_D12_P6.5,Top,
+ELS,SW201,SW1,TACT 6x6 THT,SW_PUSH_6mm_P6.5x4.5,Bottom,Each6.5mm row is internally common. OmronB3F1000 layout; check purchased switch
+ELS,SW202,SW2,TACT 6x6 THT,SW_PUSH_6mm_P6.5x4.5,Bottom,Each6.5mm row is internally common. OmronB3F1000 layout; check purchased switch
+ELS,SW203,SW3,TACT 6x6 THT,SW_PUSH_6mm_P6.5x4.5,Bottom,Each6.5mm row is internally common. OmronB3F1000 layout; check purchased switch
+ELS,U201,U1,RP2350-TOUCH-LCD-2,RP2350-Touch-LCD-2-original,Bottom,Original absolute pad coordinates and orientation unchanged
+ELS,U202,U2,"74LVC245AD,653",SOIC-20_1.27mm,Bottom,
+ELS,U203,U3,MC74ACT125DR2G,SOIC-14_1.27mm,Bottom,
+ELS,U205,U5,STEP_DIR_ENA,CONN-TH_4P-P2.50-XH2.54-4P,Top,
+ELS,U206,U6,ENCODER,CONN-TH_4P-P2.50-XH2.54-4P,Top,
+ELS,X1_X201,X1_X1,ON-OFF-ON,MTS-102_ORIGINAL_SLOTS,Bottom,Move 1mm toward lower controls; neutral centre retained
+ELS,F202,F2,0451.500MRL / F500mA 125V,Fuse_Littelfuse-NANO2-451_453,Top,"Littelfuse 0451.500MRL, very fast 500mA 125VAC/VDC; not PPTC. Continuous load initially <=350mA; verify startup. Upstream of zener."
+ELS,Z201,Z1,1N5338BG / 5V1 5W,D_DO-201AE_P12.70mm_Horizontal,Top,"5.1V / 5W, onsemi 1N5338BG, DO-201AE. Pin 1 cathode/band to fused +5V; pin 2 anode to GND. Not an accurate overvoltage disconnect."
